@@ -1,0 +1,44 @@
+{
+  "header": {
+    "id": 1,
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": "1",
+    "receptor": {
+      "type": "02",
+      "name": "Nombre Cliente",
+      "ruc_type": "1",
+      "address": "Dirección Cliente",
+      "email": "cliente@correo.com",
+      "ruc": "123-123-123"
+    },
+    "items": [
+      {
+        "line": 1,
+        "price": 0.50,
+        "mu": "und",
+        "quantity": 1,
+        "description": "Producto de prueba",
+        "taxes": [
+          {
+            "type": "01",
+            "amount": 0.035,
+            "code": "01"
+          }
+        ],
+        "discount": 0.0,
+        "internal_code": "123123"
+      }
+    ],
+    "payments": [
+      {
+        "type": "99",
+        "amount": "0.54",
+        "description": "Medio de pago de prueba"
+      }
+    ],
+    "type": "01",
+    "info": "<string>"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "header": {
+    "id": 1,
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": "1",
+    "receptor": {
+      "type": "01",
+      "name": "legal name",
+      "ruc_type": "2",
+      "address": "Customer Address",
+      "email": "customer@example.com",
+      "ruc": "[Valid document number]"
+    },
+    "items": [
+      {
+        "line": 1,
+        "price": 50,
+        "quantity": 1,
+        "description": "COMISION TRANSFERENCIA",
+        "taxes": [
+          {
+            "type": "01",
+            "amount": 3.50,
+            "code": "01"
+          }
+        ],
+        "discount": 0.0,
+        "internal_code": "4-167-2"
+      },
+      {
+        "line": 2,
+        "price": 15.00,
+        "quantity": 1,
+        "description": "GASTOS DEL CORRESPONSAL",
+        "taxes": [
+          {
+            "type": "01",
+            "amount": 1.05,
+            "code": "01"
+          }
+        ],
+        "discount": 0.0,
+        "internal_code": "4-167-3"
+      },
+      {
+        "line": 3,
+        "price": 25.00,
+        "quantity": 1,
+        "description": "ND TRANSF ENVIADAS OUR",
+        "taxes": [
+          {
+            "type": "01",
+            "amount": 1.75,
+            "code": "01"
+          }
+        ],
+        "discount": 0.0,
+        "internal_code": "4-167-8"
+      }
+    ],
+    "payments": [
+      {
+        "type": "01",
+        "amount": "69.55",
+        "description": "Credit"
+      }
+    ],
+    "type": "01",
+    "info": "Information of interest to be included in signed document"
+  }
+}
