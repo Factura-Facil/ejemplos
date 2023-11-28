@@ -1,6 +1,6 @@
 {
   "header": {
-    "id": 1,
+    "id": "1",
     "environment": "2"
   },
   "document": {
@@ -11,52 +11,52 @@
       "ruc_type": "1",
       "address": "Customer Address",
       "email": "customer@example.com",
-      "ruc": "[Valid document number]"
+      "ruc": "[Valid document]"
     },
     "items": [
       {
         "line": 1,
-        "price": 50,
-        "quantity": 1,
+        "price": "50.00",
+        "quantity": "1.00",
         "description": "COMISION TRANSFERENCIA",
         "taxes": [
           {
             "type": "01",
-            "amount": 3.50,
+            "amount": "3.50",
             "code": "01"
           }
         ],
-        "discount": 0.0,
+        "discount": "0.0",
         "internal_code": "4-167-2"
       },
       {
         "line": 2,
-        "price": 15.00,
-        "quantity": 1,
+        "price": "15.00",
+        "quantity": "1.00",
         "description": "GASTOS DEL CORRESPONSAL",
         "taxes": [
           {
             "type": "01",
-            "amount": 1.05,
+            "amount": "1.05",
             "code": "01"
           }
         ],
-        "discount": 0.0,
+        "discount": "0.0",
         "internal_code": "4-167-3"
       },
       {
         "line": 3,
-        "price": 25.00,
-        "quantity": 1,
+        "price": "25.00",
+        "quantity": "1.00",
         "description": "ND TRANSF ENVIADAS OUR",
         "taxes": [
           {
             "type": "01",
-            "amount": 1.75,
+            "amount": "1.75",
             "code": "01"
           }
         ],
-        "discount": 0.0,
+        "discount": "0.0",
         "internal_code": "4-167-8"
       }
     ],
@@ -64,7 +64,7 @@
       {
         "type": "01",
         "amount": "69.55",
-        "description": "Credit"
+        "description": "Descripcion pago"
       }
     ],
     "type": "01",

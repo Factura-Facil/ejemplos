@@ -1,6 +1,6 @@
 {
   "header": {
-    "id": 1,
+    "id": "1",
     "environment": "2"
   },
   "document": {
@@ -16,14 +16,14 @@
     "items": [
       {
         "line": 1,
-        "price": 0.50,
+        "price": "0.50",
         "mu": "und",
-        "quantity": 1,
+        "quantity": "1",
         "description": "Producto de prueba",
         "taxes": [
           {
             "type": "01",
-            "amount": 0.035,
+            "amount": "0.035",
             "code": "01"
           }
         ],

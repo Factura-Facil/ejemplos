@@ -1,6 +1,6 @@
 {
   "header": {
-    "id": 1,
+    "id": "1",
     "environment": "2"
   },
   "document": {
@@ -15,32 +15,32 @@
     "items": [
       {
         "line": 1,
-        "price": 50,
-        "quantity": 1,
+        "price": "50.00",
+        "quantity": "1.00",
         "description": "COMISION TRANSFERENCIA",
         "taxes": [
           {
             "type": "01",
-            "amount": 3.50,
+            "amount": "3.50",
             "code": "01"
           }
         ],
-        "discount": 0.0,
+        "discount": "0.0",
         "internal_code": "4-167-2"
       },
       {
         "line": 2,
-        "price": 15.00,
-        "quantity": 1,
+        "price": "15.00",
+        "quantity": "1.00",
         "description": "GASTOS DEL CORRESPONSAL",
         "taxes": [
           {
             "type": "01",
-            "amount": 1.05,
+            "amount": "1.05",
             "code": "01"
           }
         ],
-        "discount": 0.0,
+        "discount": "0.0",
         "internal_code": "4-167-3"
       }
     ],
@@ -48,7 +48,7 @@
       {
         "type": "01",
         "amount": "69.55",
-        "description": "Credit"
+        "description": "Custom description"
       }
     ],
     "type": "01",

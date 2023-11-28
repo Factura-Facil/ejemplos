@@ -16,6 +16,7 @@ Module Program
         Dim request = New HttpRequestMessage(HttpMethod.Post, "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
         request.Headers.Add("X-FF-Company", "[UUID DE FF]")
         request.Headers.Add("X-FF-API-Key", "[KEY DE FF]")
+        request.Headers.Add("X-FF-Branch", "[BRANCH DE FF]")
         request.Headers.Add("Accept", "application/json")
 
         'Para ejemplos de generación de documentos JSON recomendamos la libreria http://www.newtonsoft.com/json/help/html/SerializingJSON.htm

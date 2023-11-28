@@ -8,6 +8,7 @@ http = Net::HTTP.new(url.host, url.port);
 request = Net::HTTP::Post.new(url)
 request["X-FF-Company"] = "[UUID DE FF]"
 request["X-FF-API-Key"] = "[KEY DE FF]"
+request["X-FF-Branch"] = "[BRANCH DE FF]"
 request["Content-Type"] = "application/json"
 request["Accept"] = "application/json"
 request.body = JSON.dump({

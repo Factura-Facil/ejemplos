@@ -11,8 +11,9 @@ int main(int argc, char *argv[]){
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
     curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
     struct curl_slist *headers = NULL;
-    headers = curl_slist_append(headers, "X-FF-Company: [UUID DE FF]");
+    headers = curl_slist_append(headers, "X-FF-Company: [UUID EMISOR DE FF]");
     headers = curl_slist_append(headers, "X-FF-API-Key: [KEY DE FF]");
+    headers = curl_slist_append(headers, "X-FF-Branch: [UUID BRANCH DE FF]");
     headers = curl_slist_append(headers, "Content-Type: application/json");
     headers = curl_slist_append(headers, "Accept: application/json");
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);

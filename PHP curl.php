@@ -58,6 +58,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => array(
     'X-FF-Company: [UUID DE FF]',
     'X-FF-API-Key: [KEY DE FF]',
+    'X-FF-Branch: [BRANCH DE FF]',
     'Content-Type: application/json',
     'Accept: application/json'
   ),

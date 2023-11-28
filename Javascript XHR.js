@@ -56,6 +56,7 @@ xhr.addEventListener("readystatechange", function() {
 xhr.open("POST", "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/");
 xhr.setRequestHeader("X-FF-Company", "[UUID DE FF]");
 xhr.setRequestHeader("X-FF-API-Key", "[KEY DE FF]");
+xhr.setRequestHeader("X-FF-Branch", "[BRANCH DE FF]");
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.setRequestHeader("Accept", "application/json");
 

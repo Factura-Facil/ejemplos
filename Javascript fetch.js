@@ -1,6 +1,7 @@
 var myHeaders = new Headers();
 myHeaders.append("X-FF-Company", "[UUID DE FF]");
 myHeaders.append("X-FF-API-Key", "[KEY DE FF]");
+myHeaders.append("X-FF-Branch", "[BRANCH DE FF]");
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Accept", "application/json");
 

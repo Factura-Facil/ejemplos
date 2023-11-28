@@ -67,6 +67,7 @@ func main() {
   }
   req.Header.Add("X-FF-Company", "[UUID DE FF]")
   req.Header.Add("X-FF-API-Key", "[KEY DE FF]")
+  req.Header.Add("X-FF-Branch", "[BRANCH DE FF]")
   req.Header.Add("Content-Type", "application/json")
   req.Header.Add("Accept", "application/json")
 
