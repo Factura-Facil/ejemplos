@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var options = {
   'method': 'POST',
-  'hostname': 'backend-qa-api.facturafacil.com.pa',
+  'hostname': 'qa-api.facturafacil.com.pa',
   'path': '/api/pac/reception_fe/detailed/',
   'headers': {
     'X-FF-Company': '[UUID DE FF]',

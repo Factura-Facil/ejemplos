@@ -1,5 +1,5 @@
 var unirest = require('unirest');
-var req = unirest('POST', 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/')
+var req = unirest('POST', 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/')
   .headers({
     'X-FF-Company': '[UUID DE FF]',
     'X-FF-API-Key': '[KEY DE FF]',

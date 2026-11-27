@@ -1,7 +1,7 @@
 <?php
 $client = new http\Client;
 $request = new http\Client\Request;
-$request->setRequestUrl('https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/');
+$request->setRequestUrl('https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/');
 $request->setRequestMethod('POST');
 $body = new http\Message\Body;
 $body->append('{

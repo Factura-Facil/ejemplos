@@ -12,17 +12,19 @@ Para todos los ejemplos reemplazar [UUID DE FF] y [KEY DE FF] con las credencial
 ## Documentación en línea
 
 ### Ambiente de pruebas (Puede incluir APIs experimentales)
+> El dominio anterior `backend-qa-api.facturafacil.com.pa` está **deprecado**. Use `qa-api.facturafacil.com.pa`.
+
 #### Swagger
-https://backend-qa-api.facturafacil.com.pa/swagger/
+https://qa-api.facturafacil.com.pa/swagger/
 
 #### ReDoc
-https://backend-qa-api.facturafacil.com.pa/redoc/
+https://qa-api.facturafacil.com.pa/redoc/
 
 #### RapiPDF (documento PDF)
-https://backend-qa-api.facturafacil.com.pa/rapipdf/
+https://qa-api.facturafacil.com.pa/rapipdf/
 
 #### RapiDoc
-https://backend-qa-api.facturafacil.com.pa/rapidoc/
+https://qa-api.facturafacil.com.pa/rapidoc/
 
 ### Ambiente productivo
 #### Swagger

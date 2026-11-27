@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/"
+url = "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/"
 
 payload = json.dumps({
   "header": {

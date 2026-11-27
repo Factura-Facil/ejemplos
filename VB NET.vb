@@ -13,7 +13,7 @@ Module Program
 
     Private Async Sub TestRequest()
         Dim client = New HttpClient()
-        Dim request = New HttpRequestMessage(HttpMethod.Post, "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
+        Dim request = New HttpRequestMessage(HttpMethod.Post, "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
         request.Headers.Add("X-FF-Company", "[UUID DE FF]")
         request.Headers.Add("X-FF-API-Key", "[KEY DE FF]")
         request.Headers.Add("X-FF-Branch", "[BRANCH DE FF]")

@@ -2,7 +2,7 @@ require "uri"
 require "json"
 require "net/http"
 
-url = URI("https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
+url = URI("https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
 
 http = Net::HTTP.new(url.host, url.port);
 request = Net::HTTP::Post.new(url)

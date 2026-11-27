@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
   curl = curl_easy_init();
   if(curl) {
     curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
-    curl_easy_setopt(curl, CURLOPT_URL, "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/");
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
     curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
     struct curl_slist *headers = NULL;

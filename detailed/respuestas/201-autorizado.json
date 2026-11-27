@@ -16,7 +16,7 @@
     }
   ],
   "rejected": false,
-  "pdf_url": "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21/download_cafe/?cufe=FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+  "pdf_url": "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21/download_cafe/?cufe=FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
   "branch": "0001",
   "pos": "001",
   "document_type": "01",

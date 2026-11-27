@@ -1,7 +1,7 @@
 <?php
 require_once 'HTTP/Request2.php';
 $request = new HTTP_Request2();
-$request->setUrl('https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/');
+$request->setUrl('https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/');
 $request->setMethod(HTTP_Request2::METHOD_POST);
 $request->setConfig(array(
   'follow_redirects' => TRUE

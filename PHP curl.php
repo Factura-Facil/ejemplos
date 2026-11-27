@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/',
+  CURLOPT_URL => 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,

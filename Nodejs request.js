@@ -1,7 +1,7 @@
 var request = require('request');
 var options = {
   'method': 'POST',
-  'url': 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/',
+  'url': 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/',
   'headers': {
     'X-FF-Company': '[UUID DE FF]',
     'X-FF-API-Key': '[KEY DE FF]',

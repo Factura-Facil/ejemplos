@@ -17,7 +17,7 @@ escrito no da error pero el dato se pierde.
 ## Endpoint
 
 ```
-POST https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/   (QA)
+POST https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/   (QA)
 POST https://api.facturafacil.com.pa/api/pac/reception_fe/detailed/              (producción)
 
 X-FF-Company: <UUID empresa>

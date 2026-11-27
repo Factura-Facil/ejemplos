@@ -1,7 +1,7 @@
 import http.client
 import json
 
-conn = http.client.HTTPSConnection("https://backend-qa-api.facturafacil.com.pa/api")
+conn = http.client.HTTPSConnection("https://qa-api.facturafacil.com.pa/api")
 payload = json.dumps({
   "header": {
     "id": 1,

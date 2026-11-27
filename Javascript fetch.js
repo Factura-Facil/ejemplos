@@ -57,7 +57,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/", requestOptions)
+fetch("https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
