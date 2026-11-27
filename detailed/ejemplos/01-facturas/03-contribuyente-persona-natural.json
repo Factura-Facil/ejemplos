@@ -1,0 +1,45 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00003",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "sale_type": "4",
+    "receptor": {
+      "type": "01",
+      "name": "María González",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "dv": "00",
+      "address": "Calle 50, Edificio Ejemplo, Local 3",
+      "location": "8-8-7",
+      "email": "maria.gonzalez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SRV-MANT",
+        "description": "Servicio de mantenimiento de aire acondicionado",
+        "mu": "Hora",
+        "quantity": "1.00",
+        "price": "85.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "5.95"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "90.95"
+      }
+    ]
+  }
+}

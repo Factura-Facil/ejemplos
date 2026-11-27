@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00201",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "LIC-10",
+        "description": "Licuadora 10 velocidades",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "65.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "4.55"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "20.00"
+      },
+      {
+        "type": "03",
+        "amount": "49.55"
+      }
+    ]
+  }
+}

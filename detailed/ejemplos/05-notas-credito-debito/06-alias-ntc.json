@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "NC-0001-001-00003",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "NTC",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "referred": {
+      "fd_number": "0000000001",
+      "fd_date": "2026-11-27"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SKU-001",
+        "description": "Devolución: Café americano",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "2.50",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.18"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "2.68"
+      }
+    ]
+  }
+}

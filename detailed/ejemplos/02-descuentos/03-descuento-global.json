@@ -1,0 +1,66 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00103",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SIL-01",
+        "description": "Silla ergonómica",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "150.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "21.00"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "ESC-01",
+        "description": "Escritorio en L",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "220.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "15.40"
+          }
+        ]
+      }
+    ],
+    "discounts": [
+      {
+        "amount": "25.00",
+        "description": "Descuento por pronto pago"
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "531.40"
+      }
+    ]
+  }
+}

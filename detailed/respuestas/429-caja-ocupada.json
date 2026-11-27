@@ -1,0 +1,4 @@
+{
+  "detail": "Ya hay una emisión en curso en esta caja, intente nuevamente",
+  "retry_after": 2
+}

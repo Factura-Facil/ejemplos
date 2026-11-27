@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00102",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "LAM-01",
+        "description": "Lámpara de escritorio (20% de descuento)",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "25.00",
+        "discount": "5.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "2.80"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "42.80"
+      }
+    ]
+  }
+}

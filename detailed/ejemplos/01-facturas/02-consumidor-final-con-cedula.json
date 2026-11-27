@@ -1,0 +1,57 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00002",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "Juan Pérez",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "email": "juan.perez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SKU-001",
+        "description": "Camisa manga corta",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "18.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "2.52"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "SKU-002",
+        "description": "Pantalón de vestir",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "35.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "2.45"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "03",
+        "amount": "75.97"
+      }
+    ]
+  }
+}

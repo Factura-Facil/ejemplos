@@ -1,0 +1,10 @@
+{
+  "messages": [
+    {
+      "message": "document->receptor->dv->El dígito verificador es requerido si el tipo de receptor es contribuyente o gobierno\n",
+      "type": "R",
+      "code": "400"
+    }
+  ],
+  "rejected": true
+}

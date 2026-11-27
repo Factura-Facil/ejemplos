@@ -1,0 +1,50 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00401",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "MANT-FLOTA",
+        "description": "Mantenimiento preventivo de flota (por vehículo)",
+        "mu": "und",
+        "quantity": "8.00",
+        "price": "75.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "42.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "01",
+        "amount": "642.00"
+      }
+    ],
+    "order_info": {
+      "number": "OC-2026-458",
+      "info": "Entregar en almacén central, horario 8:00-16:00",
+      "receptor_code": "CLI-00045",
+      "system_code": "ERP-SAP"
+    }
+  }
+}

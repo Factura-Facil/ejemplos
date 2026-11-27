@@ -1,0 +1,61 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00010",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "info": "Gracias por su compra. Devoluciones dentro de los 3 días con su factura.",
+    "receptor": {
+      "type": "02",
+      "name": "Juan Pérez",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "email": "juan.perez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "YOG-1L",
+        "description": "Yogurt natural 1 L",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "3.80",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ],
+        "expiration_date": "2026-12-15",
+        "additional_info": "Mantener refrigerado"
+      },
+      {
+        "line": 2,
+        "internal_code": "QUE-500",
+        "description": "Queso blanco 500 g",
+        "mu": "kg",
+        "quantity": "1.50",
+        "price": "5.40",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ],
+        "expiration_date": "2026-12-20"
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "15.70"
+      }
+    ]
+  }
+}

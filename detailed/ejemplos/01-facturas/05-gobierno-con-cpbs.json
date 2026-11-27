@@ -1,0 +1,62 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00005",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "03",
+      "name": "Ministerio de Ejemplo",
+      "ruc": "8-NT-1-12345",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Avenida Perú, Edificio Ministerial",
+      "location": "8-8-1",
+      "email": "compras@ministerio.gob.pa"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "LAP-14",
+        "description": "Laptop 14\" 16GB RAM 512GB SSD",
+        "mu": "und",
+        "quantity": "4.00",
+        "price": "850.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "238.00"
+          }
+        ],
+        "gns": "4321"
+      },
+      {
+        "line": 2,
+        "internal_code": "SRV-TEC",
+        "description": "Soporte técnico e instalación",
+        "mu": "Hora",
+        "quantity": "1.00",
+        "price": "120.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "8.40"
+          }
+        ],
+        "gns": "8111"
+      }
+    ],
+    "payments": [
+      {
+        "type": "01",
+        "amount": "3766.40"
+      }
+    ]
+  }
+}

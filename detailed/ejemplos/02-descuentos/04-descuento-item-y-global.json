@@ -1,0 +1,67 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00104",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "Juan Pérez",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "email": "juan.perez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "TV-55",
+        "description": "Televisor 55\"",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "499.00",
+        "discount": "50.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "31.43"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "SOP-01",
+        "description": "Soporte de pared",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "35.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "2.45"
+          }
+        ]
+      }
+    ],
+    "discounts": [
+      {
+        "amount": "10.00",
+        "description": "Cupón BIENVENIDA10"
+      },
+      {
+        "amount": "5.00",
+        "description": "Puntos de lealtad redimidos"
+      }
+    ],
+    "payments": [
+      {
+        "type": "04",
+        "amount": "502.88"
+      }
+    ]
+  }
+}

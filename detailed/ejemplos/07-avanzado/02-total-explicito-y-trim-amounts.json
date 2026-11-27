@@ -1,0 +1,40 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00402",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "GAS-95",
+        "description": "Gasolina 95 octanos",
+        "mu": "gal",
+        "quantity": "10.512",
+        "price": "4.159",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "43.72"
+      }
+    ],
+    "total": "43.72",
+    "trim_amounts": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "id": "EXP-0001-001-00001",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "03",
+    "dest_country": "CO",
+    "receptor": {
+      "type": "04",
+      "name": "Importadora Andina S.A.S.",
+      "ruc": "900123456-7",
+      "country": "CO",
+      "address": "Carrera 7 # 71-21, Bogotá",
+      "email": "compras@importadoraandina.co"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "CAF-25",
+        "description": "Café de altura tostado en grano, saco 25 kg",
+        "mu": "kg",
+        "quantity": "40.00",
+        "price": "180.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "7200.00"
+      }
+    ],
+    "export_info": {
+      "incoterms": "FOB",
+      "currency": "USD",
+      "port_of_shipment": "Puerto de Balboa"
+    }
+  }
+}

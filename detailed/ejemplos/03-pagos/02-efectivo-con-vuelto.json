@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00202",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "CMB-01",
+        "description": "Combo hamburguesa",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "8.75",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.61"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "10.00"
+      }
+    ]
+  }
+}

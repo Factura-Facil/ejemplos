@@ -1,0 +1,86 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00007",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "ARR-5",
+        "description": "Arroz 5 lb (exento)",
+        "mu": "lb",
+        "quantity": "2.00",
+        "price": "3.25",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "DET-1",
+        "description": "Detergente 1 kg (7%)",
+        "mu": "kg",
+        "quantity": "1.00",
+        "price": "4.10",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.29"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "internal_code": "CER-355",
+        "description": "Cerveza nacional 355 ml (10%)",
+        "mu": "und",
+        "quantity": "6.00",
+        "price": "1.10",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "02",
+            "amount": "0.66"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "internal_code": "CIG-20",
+        "description": "Cigarrillos cajetilla 20 un (15%)",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "6.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "03",
+            "amount": "0.90"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "25.05"
+      }
+    ]
+  }
+}

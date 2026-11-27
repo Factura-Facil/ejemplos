@@ -1,0 +1,57 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00303",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "Juan Pérez",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "email": "juan.perez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "CON-MED",
+        "description": "Consulta médica general",
+        "mu": "Hora",
+        "quantity": "1.00",
+        "price": "40.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "MED-RX",
+        "description": "Medicamento recetado",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "12.50",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "03",
+        "amount": "65.00"
+      }
+    ]
+  }
+}
