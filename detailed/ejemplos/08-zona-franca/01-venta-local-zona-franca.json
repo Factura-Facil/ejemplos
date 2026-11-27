@@ -1,0 +1,61 @@
+{
+  "header": {
+    "id": "FZF-0001-001-00001",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "08",
+    "info": "Mercancía despachada desde Zona Libre de Colón",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "PERF-100",
+        "description": "Perfume importado 100 ml (caja de 12)",
+        "mu": "Caja",
+        "quantity": "5.00",
+        "price": "240.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "REL-AC",
+        "description": "Reloj de pulsera acero inoxidable",
+        "mu": "und",
+        "quantity": "10.00",
+        "price": "85.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "2050.00"
+      }
+    ]
+  }
+}

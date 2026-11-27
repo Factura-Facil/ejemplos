@@ -31,7 +31,7 @@ Nunca escriba credenciales reales en código fuente; use variables de entorno o 
 ## Cómo construir un documento
 
 1. **Tipo** (`document.type`): `01` factura, `04` NC, `05` ND, `06`/`07` NC/ND genérica, `03` exportación,
-   `10` operación extranjera.
+   `08` zona franca, `10` operación extranjera.
 2. **Receptor** (`document.receptor.type`):
    - `02` consumidor final → basta `name` (o `CONSUMIDOR FINAL`).
    - `01` contribuyente → `ruc`, `ruc_type`, `dv`, `address`, `location` (todos obligatorios).

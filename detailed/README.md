@@ -173,6 +173,15 @@ cubren el total.
 | [`03-muchos-items.json`](ejemplos/07-avanzado/03-muchos-items.json) | 25 ítems con tasas mezcladas (ticket de supermercado). |
 | [`04-documento-completo.json`](ejemplos/07-avanzado/04-documento-completo.json) | Combina casi todo: sucursal en body, CPBS, descuentos por ítem y global, pago mixto con cuota, orden de compra. |
 
+### `08-zona-franca/` — Factura de zona franca (`type` `08`)
+
+Para empresas establecidas en una zona franca o en la Zona Libre de Colón.
+
+| Archivo | Caso |
+|---|---|
+| [`01-venta-local-zona-franca.json`](ejemplos/08-zona-franca/01-venta-local-zona-franca.json) | Venta a una empresa en Panamá, ítems exentos de ITBMS, pago por transferencia. |
+| [`02-reexportacion-zona-franca.json`](ejemplos/08-zona-franca/02-reexportacion-zona-franca.json) | Reexportación a Costa Rica: receptor extranjero, `dest_country` + `export_info`, a crédito a 45 días. |
+
 ---
 
 ## Combinaciones válidas de un vistazo
@@ -184,6 +193,7 @@ cubren el total.
 | `04` Nota de crédito | igual que la factura original | **obligatorio** | igual que la original |
 | `05` Nota de débito | igual que la factura original | **obligatorio** | igual que la original |
 | `06` / `07` NC/ND genérica | `01`, `02`, `03`, `04` | — | `PA` |
+| `08` Zona franca | `01`, `02`, `03`, `04` | — (no debe referenciar otra FE) | `PA`, o ≠ `PA` + `export_info` (reexportación) |
 | `10` Operación extranjera | `04` | — | — |
 
 ## Errores frecuentes
