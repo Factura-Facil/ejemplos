@@ -117,11 +117,11 @@ Convenciones:
 | `05` | Nota de débito referente a una FE | Requiere `referred`. Alias: `NTD`. |
 | `06` | Nota de crédito genérica | Sin documento referenciado. |
 | `07` | Nota de débito genérica | Sin documento referenciado. |
-| `08` | Factura de zona franca | |
+| `08` | Factura de zona franca | Emitida por empresas de zona franca / Zona Libre de Colón. Venta local (`dest_country` `PA`) o reexportación (`dest_country` ≠ `PA` + `export_info`). No debe referenciar otra FE. |
 | `09` | Reembolso | |
 | `10` | Factura de operación extranjera | Receptor tipo `04` (extranjero). |
 
-> Los tipos `02`, `08` y `09` tienen reglas adicionales de la DGI según la actividad del emisor;
+> Los tipos `02` y `09` tienen reglas adicionales de la DGI según la actividad del emisor;
 > pruébelos primero en QA y consulte con soporte si tiene dudas.
 
 ---

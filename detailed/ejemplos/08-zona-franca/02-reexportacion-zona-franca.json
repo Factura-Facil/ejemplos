@@ -1,0 +1,72 @@
+{
+  "header": {
+    "id": "FZF-0001-001-00002",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "08",
+    "payment_term": 2,
+    "dest_country": "CR",
+    "receptor": {
+      "type": "04",
+      "name": "Comercializadora del Pacífico S.A.",
+      "ruc": "3101123456",
+      "country": "CR",
+      "address": "Avenida Central, San José",
+      "email": "compras@comercialpacifico.cr"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "TV-50",
+        "description": "Televisor LED 50\" (reexportación)",
+        "mu": "und",
+        "quantity": "20.00",
+        "price": "310.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "BAR-21",
+        "description": "Barra de sonido 2.1 (reexportación)",
+        "mu": "und",
+        "quantity": "20.00",
+        "price": "95.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "installments": [
+      {
+        "expiration_date": "2027-01-11",
+        "value": "8100.00",
+        "info": "Pago a 45 días"
+      }
+    ],
+    "payments": [
+      {
+        "type": "01",
+        "amount": "8100.00"
+      }
+    ],
+    "export_info": {
+      "incoterms": "CIF",
+      "currency": "USD",
+      "port_of_shipment": "Puerto de Colón"
+    }
+  }
+}
