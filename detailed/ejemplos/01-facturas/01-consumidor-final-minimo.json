@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00001",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SKU-001",
+        "description": "Café americano",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "2.50",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.35"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "5.35"
+      }
+    ]
+  }
+}

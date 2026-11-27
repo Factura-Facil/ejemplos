@@ -1,0 +1,48 @@
+{
+  "header": {
+    "id": "FAC-0002-003-00001",
+    "environment": "2",
+    "pos": "003",
+    "issue_date": "2026-11-27 10:30:00",
+    "branch": {
+      "code": "0002",
+      "address": "Vía Interamericana, Plaza Ejemplo, Local 12",
+      "coordinates": "+8.9824,-79.5199",
+      "phone": "6000-0000",
+      "location": "8-8-8",
+      "email": "sucursal0002@miempresa.com"
+    }
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "FIL-01",
+        "description": "Filtro de aceite",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "12.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.84"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "12.84"
+      }
+    ]
+  }
+}

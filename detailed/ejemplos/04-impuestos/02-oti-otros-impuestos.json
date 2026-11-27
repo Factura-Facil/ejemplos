@@ -1,0 +1,54 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00302",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "01",
+      "name": "María González",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "dv": "00",
+      "address": "Calle 50, Edificio Ejemplo, Local 3",
+      "location": "8-8-7",
+      "email": "maria.gonzalez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "PLAN-30",
+        "description": "Plan de telefonía móvil pospago",
+        "mu": "Mes",
+        "quantity": "1.00",
+        "price": "30.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "2.10"
+          },
+          {
+            "type": "02",
+            "code": "01",
+            "amount": "0.38"
+          },
+          {
+            "type": "02",
+            "code": "02",
+            "amount": "0.06"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "04",
+        "amount": "32.54"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "id": "NC-0001-001-00001",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "04",
+    "info": "Devolución por talla incorrecta",
+    "receptor": {
+      "type": "02",
+      "name": "Juan Pérez",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "email": "juan.perez@example.com"
+    },
+    "referred": {
+      "fd_number": "0000000002",
+      "fd_date": "2026-11-20"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SKU-001",
+        "description": "Devolución: Camisa manga corta",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "18.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "1.26"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "03",
+        "amount": "19.26"
+      }
+    ]
+  }
+}

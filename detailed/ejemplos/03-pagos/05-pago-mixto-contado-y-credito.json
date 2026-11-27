@@ -1,0 +1,59 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00205",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "payment_term": 3,
+    "receptor": {
+      "type": "01",
+      "name": "María González",
+      "ruc": "8-888-8888",
+      "ruc_type": "1",
+      "dv": "00",
+      "address": "Calle 50, Edificio Ejemplo, Local 3",
+      "location": "8-8-7",
+      "email": "maria.gonzalez@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "COM-6",
+        "description": "Juego de comedor 6 sillas",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "900.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "63.00"
+          }
+        ]
+      }
+    ],
+    "installments": [
+      {
+        "expiration_date": "2026-12-27",
+        "value": "331.50"
+      },
+      {
+        "expiration_date": "2027-01-27",
+        "value": "331.50"
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "300.00"
+      },
+      {
+        "type": "01",
+        "amount": "663.00"
+      }
+    ]
+  }
+}

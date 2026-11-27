@@ -1,0 +1,54 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00101",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "ZAP-01",
+        "description": "Zapatos deportivos (precio 60.00, descuento 15.00 por unidad)",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "60.00",
+        "discount": "15.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "3.15"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "MED-01",
+        "description": "Medias deportivas (sin descuento)",
+        "mu": "und",
+        "quantity": "3.00",
+        "price": "4.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.84"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "60.99"
+      }
+    ]
+  }
+}

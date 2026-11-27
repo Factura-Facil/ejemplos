@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00006",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "04",
+      "name": "John Smith",
+      "ruc": "P123456789",
+      "country": "US",
+      "address": "1200 Brickell Ave, Miami, FL",
+      "email": "john.smith@example.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "ART-MOLA",
+        "description": "Artesanía mola tradicional",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "45.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "6.30"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "03",
+        "amount": "96.30"
+      }
+    ]
+  }
+}

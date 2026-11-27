@@ -1,0 +1,29 @@
+{
+  "service_response": "<SOAP-ENV:Envelope ...><ns2:dCodRes>0260</ns2:dCodRes><ns2:dMsgRes>Autorizado el uso de la FE</ns2:dMsgRes>...</SOAP-ENV:Envelope>",
+  "qr_code_data": "https://dgi-fep.mef.gob.pa/Consultas/FacturasPorQR?chFE=FE0120000155555555-2-2020-0000012026112700000000010010121234567898&iAmb=2&digestValue=...&jwt=...",
+  "cufe": "FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+  "did": "1052",
+  "qr_image_b64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...",
+  "digest_value": "1NMd1G+GWXjU+BHKJyHGppngmWDMPCLFS1yVxfXGzZw=",
+  "xml": "<SOAP-ENV:Envelope ...> (XML firmado enviado a la DGI) </SOAP-ENV:Envelope>",
+  "messages": [
+    {
+      "code": "0260",
+      "message": "Autorizado el uso de la FE",
+      "field_name": "",
+      "path": "",
+      "type": "N"
+    }
+  ],
+  "rejected": false,
+  "pdf_url": "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21/download_cafe/?cufe=FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+  "branch": "0001",
+  "pos": "001",
+  "document_type": "01",
+  "document_number": "0000000001",
+  "authorization_number": "0000155555555-2-202000000000000000001052",
+  "process_date": "2026-11-27T10:30:02-05:00",
+  "document_uuid": "3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21",
+  "original": null,
+  "duplicated": false
+}

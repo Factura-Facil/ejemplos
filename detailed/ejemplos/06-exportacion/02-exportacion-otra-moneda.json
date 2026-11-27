@@ -1,0 +1,50 @@
+{
+  "header": {
+    "id": "EXP-0001-001-00002",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "03",
+    "dest_country": "ES",
+    "receptor": {
+      "type": "04",
+      "name": "Distribuciones Ibéricas S.L.",
+      "ruc": "B12345678",
+      "country": "ES",
+      "address": "Calle Mayor 10, Madrid",
+      "email": "pedidos@ibericas.es"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "RON-12",
+        "description": "Ron añejo 12 años 750 ml",
+        "mu": "und",
+        "quantity": "120.00",
+        "price": "25.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "3000.00"
+      }
+    ],
+    "export_info": {
+      "incoterms": "CIF",
+      "currency": "EUR",
+      "exchange_rate": "0.9200",
+      "value": "2760.00",
+      "port_of_shipment": "Puerto de Manzanillo, Colón"
+    }
+  }
+}

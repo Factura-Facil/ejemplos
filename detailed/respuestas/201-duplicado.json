@@ -1,0 +1,35 @@
+{
+  "cufe": "FE0120000155555555-2-2020-0000012026112700000000010010129876543218",
+  "messages": [
+    {
+      "code": "1002",
+      "message": "Documento duplicado",
+      "field_name": "",
+      "path": "",
+      "type": "R"
+    }
+  ],
+  "rejected": true,
+  "duplicated": true,
+  "branch": "0001",
+  "pos": "001",
+  "document_type": "01",
+  "document_number": "0000000001",
+  "original": {
+    "cufe": "FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+    "document_uuid": "3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21",
+    "process_date": "2026-11-27T10:30:02-05:00",
+    "pdf_url": "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/3f1c2b7e-9a4d-4c8e-b1f2-7d6e5a4b3c21/download_cafe/?cufe=FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+    "qr_code_data": "https://dgi-fep.mef.gob.pa/Consultas/FacturasPorQR?chFE=...",
+    "total": "5.35",
+    "customer_ruc": null,
+    "customer_name": "CONSUMIDOR FINAL",
+    "authorization_number": "0000155555555-2-202000000000000000001052",
+    "payment_methods": [
+      {
+        "type": "02",
+        "amount": 5.35
+      }
+    ]
+  }
+}

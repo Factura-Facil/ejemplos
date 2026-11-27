@@ -1,0 +1,43 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00301",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "BEB-600",
+        "description": "Bebida azucarada 600 ml",
+        "mu": "und",
+        "quantity": "4.00",
+        "price": "1.25",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.37"
+          },
+          {
+            "type": "03",
+            "rate": "0.07",
+            "amount": "0.35"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "5.72"
+      }
+    ]
+  }
+}

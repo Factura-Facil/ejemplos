@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "FAC-0001-002-0000001523",
+    "environment": "2",
+    "pos": "002"
+  },
+  "document": {
+    "fd_number": 1523,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SKU-001",
+        "description": "Almuerzo ejecutivo",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "7.50",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.53"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "8.03"
+      }
+    ]
+  }
+}

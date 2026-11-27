@@ -1,0 +1,77 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00004",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "info": "Orden de compra interna OC-2026-0458",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "PAP-001",
+        "description": "Resma de papel bond carta 500 hojas",
+        "mu": "Caja",
+        "quantity": "20.00",
+        "price": "4.75",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "6.65"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "TON-002",
+        "description": "Tóner negro compatible",
+        "mu": "und",
+        "quantity": "3.00",
+        "price": "42.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "8.82"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "internal_code": "GRA-003",
+        "description": "Grapadora metálica",
+        "mu": "und",
+        "quantity": "5.00",
+        "price": "9.90",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "3.47"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "289.44"
+      }
+    ]
+  }
+}

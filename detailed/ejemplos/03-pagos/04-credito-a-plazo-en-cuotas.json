@@ -1,0 +1,62 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00204",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "payment_term": 2,
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "REF-COM",
+        "description": "Equipo de refrigeración comercial",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "1500.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "105.00"
+          }
+        ]
+      }
+    ],
+    "installments": [
+      {
+        "expiration_date": "2026-12-27",
+        "value": "535.00",
+        "info": "Cuota 1 de 3"
+      },
+      {
+        "expiration_date": "2027-01-27",
+        "value": "535.00",
+        "info": "Cuota 2 de 3"
+      },
+      {
+        "expiration_date": "2027-02-27",
+        "value": "535.00",
+        "info": "Cuota 3 de 3"
+      }
+    ],
+    "payments": [
+      {
+        "type": "01",
+        "amount": "1605.00"
+      }
+    ]
+  }
+}

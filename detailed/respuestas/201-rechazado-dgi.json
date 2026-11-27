@@ -1,0 +1,19 @@
+{
+  "service_response": "<SOAP-ENV:Envelope ...><ns2:dCodRes>2056</ns2:dCodRes>...</SOAP-ENV:Envelope>",
+  "cufe": "FE0120000155555555-2-2020-0000012026112700000000010010121234567898",
+  "messages": [
+    {
+      "code": "2056",
+      "message": "Valor total del ítem inválido",
+      "field_name": "dValTotItem",
+      "path": "gItem.gPrecios.dValTotItem",
+      "type": "R"
+    }
+  ],
+  "rejected": true,
+  "branch": "0001",
+  "pos": "001",
+  "document_type": "01",
+  "document_number": "0000000001",
+  "xml": "<SOAP-ENV:Envelope ...> ... </SOAP-ENV:Envelope>"
+}

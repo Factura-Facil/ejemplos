@@ -1,0 +1,114 @@
+{
+  "header": {
+    "id": "FAC-0003-001-00001",
+    "environment": "2",
+    "pos": "001",
+    "branch": {
+      "code": "0003",
+      "address": "Costa del Este, Business Park, Torre Norte",
+      "coordinates": "+9.0129,-79.4687",
+      "phone": "300-0000",
+      "location": "8-8-7",
+      "email": "ventas.costadeleste@miempresa.com"
+    }
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "sale_type": "1",
+    "payment_term": 3,
+    "info": "Entrega programada para el 2026-12-02. Contacto: Ana Ruiz 6000-0001.",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "IMP-LAS",
+        "description": "Impresora multifuncional láser",
+        "mu": "und",
+        "quantity": "2.00",
+        "price": "320.00",
+        "discount": "20.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "42.00"
+          }
+        ],
+        "gns": "4321",
+        "additional_info": "Garantía 12 meses"
+      },
+      {
+        "line": 2,
+        "internal_code": "PAP-FOTO",
+        "description": "Papel fotográfico A4 (paquete 100)",
+        "mu": "und",
+        "quantity": "4.00",
+        "price": "18.50",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "5.18"
+          }
+        ],
+        "gns": "4411",
+        "expiration_date": "2028-12-31"
+      },
+      {
+        "line": 3,
+        "internal_code": "SRV-INST",
+        "description": "Instalación y configuración en red",
+        "mu": "Hora",
+        "quantity": "2.00",
+        "price": "60.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "8.40"
+          }
+        ],
+        "gns": "8111"
+      }
+    ],
+    "discounts": [
+      {
+        "amount": "15.00",
+        "description": "Descuento cliente corporativo"
+      }
+    ],
+    "installments": [
+      {
+        "expiration_date": "2026-12-27",
+        "value": "334.58",
+        "info": "Saldo a 30 días"
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "500.00"
+      },
+      {
+        "type": "01",
+        "amount": "334.58"
+      }
+    ],
+    "order_info": {
+      "number": "PO-77812",
+      "receptor_code": "CORP-118"
+    }
+  }
+}

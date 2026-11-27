@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00203",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "SUS-M",
+        "description": "Suscripción mensual",
+        "mu": "Mes",
+        "quantity": "1.00",
+        "price": "9.99",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.70"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "99",
+        "amount": "10.69",
+        "description": "Pago con billetera digital Yappy"
+      }
+    ]
+  }
+}

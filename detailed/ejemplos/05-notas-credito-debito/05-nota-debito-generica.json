@@ -1,0 +1,44 @@
+{
+  "header": {
+    "id": "NDG-0001-001-00001",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "07",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "INT-MORA",
+        "description": "Intereses por mora",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "15.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "00",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "15.00"
+      }
+    ]
+  }
+}

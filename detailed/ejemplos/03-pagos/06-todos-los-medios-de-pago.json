@@ -1,0 +1,75 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00206",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "CAN-01",
+        "description": "Canasta de regalo",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "100.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "7.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "10.00"
+      },
+      {
+        "type": "03",
+        "amount": "10.00"
+      },
+      {
+        "type": "04",
+        "amount": "10.00"
+      },
+      {
+        "type": "05",
+        "amount": "5.00"
+      },
+      {
+        "type": "06",
+        "amount": "5.00"
+      },
+      {
+        "type": "07",
+        "amount": "10.00"
+      },
+      {
+        "type": "08",
+        "amount": "20.00"
+      },
+      {
+        "type": "09",
+        "amount": "10.00"
+      },
+      {
+        "type": "10",
+        "amount": "10.00"
+      },
+      {
+        "type": "99",
+        "amount": "17.00",
+        "description": "Saldo pagado con criptomoneda"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "header": {
+    "id": "NC-0001-001-00002",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "04",
+    "info": "Ajuste de precio acordado con el cliente",
+    "receptor": {
+      "type": "01",
+      "name": "Comercial Ejemplo, S.A.",
+      "ruc": "155555555-2-2020",
+      "ruc_type": "2",
+      "dv": "00",
+      "address": "Vía España, Torre Ejemplo, Piso 10",
+      "location": "8-8-7",
+      "email": "facturacion@comercialejemplo.com"
+    },
+    "referred": {
+      "fd_number": "FE0120000155555555-2-2020-0000012026112000000000040010121234567892",
+      "fd_date": "2026-11-20"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "TON-002",
+        "description": "Ajuste de precio: Tóner negro compatible",
+        "mu": "und",
+        "quantity": "3.00",
+        "price": "5.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "1.05"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "08",
+        "amount": "16.05"
+      }
+    ]
+  }
+}

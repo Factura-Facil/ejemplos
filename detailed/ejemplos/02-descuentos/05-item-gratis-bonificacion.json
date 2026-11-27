@@ -1,0 +1,54 @@
+{
+  "header": {
+    "id": "FAC-0001-001-00105",
+    "environment": "2"
+  },
+  "document": {
+    "fd_number": 0,
+    "type": "01",
+    "receptor": {
+      "type": "02",
+      "name": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "line": 1,
+        "internal_code": "PIZ-G",
+        "description": "Pizza grande pepperoni",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "14.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.98"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "internal_code": "REF-2L",
+        "description": "Refresco 2 L (promoción, sin costo)",
+        "mu": "und",
+        "quantity": "1.00",
+        "price": "0.00",
+        "discount": "0.00",
+        "taxes": [
+          {
+            "type": "01",
+            "code": "01",
+            "amount": "0.00"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "type": "02",
+        "amount": "14.98"
+      }
+    ]
+  }
+}
