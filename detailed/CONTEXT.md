@@ -12,7 +12,7 @@ Para ejemplos listos para usar, ver [`ejemplos/`](ejemplos/) y el [README](READM
 |---|---|
 | Método | `POST` |
 | Ruta | `/api/pac/reception_fe/detailed/` |
-| QA (pruebas) | `https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/` |
+| QA (pruebas) | `https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/` |
 | Producción | `https://api.facturafacil.com.pa/api/pac/reception_fe/detailed/` |
 | Content-Type | `application/json` |
 
@@ -439,6 +439,6 @@ deba aparecer en la factura; use `items[].additional_info` o `document.info`.
 
 | | QA | Producción |
 |---|---|---|
-| Swagger | https://backend-qa-api.facturafacil.com.pa/swagger/ | https://api.facturafacil.com.pa/swagger/ |
-| ReDoc | https://backend-qa-api.facturafacil.com.pa/redoc/ | https://api.facturafacil.com.pa/redoc/ |
-| RapiDoc | https://backend-qa-api.facturafacil.com.pa/rapidoc/ | https://api.facturafacil.com.pa/rapidoc/ |
+| Swagger | https://qa-api.facturafacil.com.pa/swagger/ | https://api.facturafacil.com.pa/swagger/ |
+| ReDoc | https://qa-api.facturafacil.com.pa/redoc/ | https://api.facturafacil.com.pa/redoc/ |
+| RapiDoc | https://qa-api.facturafacil.com.pa/rapidoc/ | https://api.facturafacil.com.pa/rapidoc/ |

@@ -8,7 +8,7 @@ Uso:
     python scripts/enviar.py ejemplos/01-facturas/01-consumidor-final-minimo.json
 
 Variables opcionales:
-    FF_BASE_URL   URL base (por defecto QA: https://backend-qa-api.facturafacil.com.pa)
+    FF_BASE_URL   URL base (por defecto QA: https://qa-api.facturafacil.com.pa)
 """
 import json
 import os
@@ -17,7 +17,7 @@ import time
 
 import requests
 
-BASE_URL = os.environ.get('FF_BASE_URL', 'https://backend-qa-api.facturafacil.com.pa')
+BASE_URL = os.environ.get('FF_BASE_URL', 'https://qa-api.facturafacil.com.pa')
 MAX_RETRIES = 3
 
 

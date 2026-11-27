@@ -3,7 +3,7 @@ import java.io.*;
 public class main {
   public static void main(String []args) throws Exception{
     Unirest.setTimeouts(0, 0);
-    HttpResponse<String> response = Unirest.post("https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
+    HttpResponse<String> response = Unirest.post("https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
       .header("X-FF-Company", "[UUID DE FF]")
       .header("X-FF-API-Key", "[KEY DE FF]")
       .header("X-FF-Branch", "[BRANCH DE FF]")

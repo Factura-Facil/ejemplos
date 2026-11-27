@@ -9,7 +9,7 @@ void main() async {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
   };
-  var request = http.Request('POST', Uri.parse('https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/'));
+  var request = http.Request('POST', Uri.parse('https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/'));
   request.body = json.encode({
     "header": {
       "id": 1,

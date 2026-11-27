@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/",
+  "url": "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/",
   "method": "POST",
   "timeout": 0,
   "headers": {

@@ -1,4 +1,4 @@
-curl --location --globoff 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/' \
+curl --location --globoff 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/' \
 --header 'X-FF-Company: [UUID DE FF]' \
 --header 'X-FF-API-Key: [KEY DE FF]' \
 --header 'X-FF-Branch: [UUID BRANCH FF]' \

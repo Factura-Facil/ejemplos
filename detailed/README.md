@@ -46,7 +46,7 @@ python scripts/enviar.py ejemplos/01-facturas/01-consumidor-final-minimo.json
 O directamente:
 
 ```bash
-curl -X POST 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/' \
+curl -X POST 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/' \
   -H "X-FF-Company: $FF_COMPANY" \
   -H "X-FF-API-Key: $FF_API_KEY" \
   -H "X-FF-Branch: $FF_BRANCH" \

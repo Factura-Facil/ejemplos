@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 namespace HelloWorldApplication {
   class HelloWorld {
     static async Task Main(string[] args) {
-      var options = new RestClientOptions("https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
+      var options = new RestClientOptions("https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/")
       {
         MaxTimeout = -1,
       };

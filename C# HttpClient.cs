@@ -1,6 +1,6 @@
 // No more boilerplate needed with top level statements (https://docs.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates)
 var client = new HttpClient();
-var request = new HttpRequestMessage(HttpMethod.Post, "https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/");
 request.Headers.Add("X-FF-Company", "[UUID EMISOR DE FF]");
 request.Headers.Add("X-FF-API-Key", "[KEY DE FF]");
 request.Headers.Add("X-FF-Branch", "[UUID BRANCH DE FF]");

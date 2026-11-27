@@ -51,7 +51,7 @@ $body = '{
     "info": "<string>"
   }
 }';
-$request = new Request('POST', 'https://backend-qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/', $headers, $body);
+$request = new Request('POST', 'https://qa-api.facturafacil.com.pa/api/pac/reception_fe/detailed/', $headers, $body);
 $res = $client->sendAsync($request)->wait();
 echo $res->getBody();
 
